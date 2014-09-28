@@ -1,0 +1,56 @@
+<!-- ====================================== Main View ====================================== -->
+<article class="view" id="mainView">
+   <div class="content pad text-center">
+      
+      <div class="content">
+
+            <header class="pad-b">
+               <i class="fa fa-bookmark"></i> Water Status
+            </header>
+            <div class="text-center text-xxx-small">(Tap on a status to update it)</div>
+            <div class="panel">
+                <table class="full-width"">
+                    <tbody id="bldg-water-status">
+                        <tr>
+                            <td class="pad text-center">
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <span class="text-center"> Fetching water status... Please wait.</span>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel">
+                <table class="full-width">
+                    <tbody>                            
+                        <tr>
+                            <td id="pmcWaterStatus" class="pad hidden half-width">
+                                <label id="pmcWaterStatusLabel" class="text-left">PMC Water</label>
+                                <div id="pmcWaterStatusTimestamp" class="text-left text-xxx-small"></div>
+                            </td>
+                            <td id="tankerWaterStatus" class="pad hidden half-width">
+                                <label id="tankerWaterStatusLabel" class="text-left">Tanker Water</label>
+                                <div id="tankerWaterStatusTimestamp" class="text-left text-xxx-small"></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <section>
+                <span id="btnRefreshWaterStatus" class="button activable fa fa-arrows-cw button-color">Refresh</span>
+            </section>
+      </div>
+      
+      <!--span id="messageButton" class="button primary inline">Show Random Notification</span-->
+   </div>
+   <script src="js/main.js"> </script>
+   <script src="js/lib/dateFormatter.js"> </script>
+   <script src="https://cdn.firebase.com/js/client/1.0.18/firebase.js"></script>
+</article>

@@ -1,0 +1,55 @@
+{  
+   "wonderfutura":{  
+      "global":{  
+         "waterStatus":{  
+            "pmcWaterStatus":{  
+               "isAvailable":true,
+               "lastUpdatedBy":"Gopi (T-503)",
+               "lastUpdatedAt":"7:30am Jul 27"
+            },
+            "tankerWaterStatus":{  
+               "isAvailable":true,
+               "lastUpdatedBy":"Gopi (T-503)",
+               "lastUpdatedAt":"7:30am Jul 27"
+            }
+         }
+      },
+      "buildings":{  
+         "T":{  
+            "waterStatus":{  
+               "isAvailable":true,
+               "lastUpdatedBy":"Gopi (T-503)",
+               "lastUpdatedAt":"7:30am Jul 27"
+            }
+         },
+         "U":{  
+            "waterStatus":{  
+               "isAvailable":true,
+               "lastUpdatedBy":"Gopi (T-503)",
+               "lastUpdatedAt":"7:30am Jul 27"
+            }
+         },
+         "V":{  
+            "waterStatus":{  
+               "isAvailable":true,
+               "lastUpdatedBy":"Gopi (T-503)",
+               "lastUpdatedAt":"7:30am Jul 27"
+            }
+         },
+         "W":{  
+            "waterStatus":{  
+               "isAvailable":true,
+               "lastUpdatedBy":"Gopi (T-503)",
+               "lastUpdatedAt":"7:30am Jul 27"
+            }
+         },
+         "X":{  
+            "waterStatus":{  
+               "isAvailable":true,
+               "lastUpdatedBy":"Gopi (T-503)",
+               "lastUpdatedAt":"7:30am Jul 27"
+            }
+         }
+      }
+   }
+}
