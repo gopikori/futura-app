@@ -7,7 +7,11 @@ The data structure stored on firebase is very simple and constant. Refer the fil
 server-data-model.txt for exact structure. If you want to modify this app for your 
 society, you have to follow this structure
 
-For quick view, refer the screenshots in screenshots folder.
+Screenshots
+
+![alt tag](screenshots/screenshot-1411911217873.png)
+![alt tag](screenshots/screenshot-1411911237590.png)
+![alt tag](screenshots/screenshot-1411911248304.png)
 
 
 ### To run the app in simulator
